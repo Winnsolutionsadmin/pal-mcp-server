@@ -3,6 +3,10 @@
   "command": "codex",
   "additional_args": [
     "--json",
+    "--model",
+    "gpt-5.6-sol",
+    "-c",
+    "model_reasoning_effort=ultra",
     "--sandbox",
     "read-only",
     "--skip-git-repo-check"
